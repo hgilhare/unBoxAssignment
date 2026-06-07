@@ -19,7 +19,7 @@ public class flipkartAddToCartPage extends base {
     String tenthPhonePrice;
 
     /**
-     * This code will launch the Chrome browser and open the URL.
+     * This code will launch the Chrome browser and open the URLs.
      */
 
     public void useropenflipkartwebpage() {
