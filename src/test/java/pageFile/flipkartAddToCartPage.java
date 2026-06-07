@@ -21,6 +21,11 @@ public class flipkartAddToCartPage extends base {
     /**
      * This code will launch the Chrome browser and open the URLs.
      */
+     <execution>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
 
     public void useropenflipkartwebpage() {
         ChromeOptions options = new ChromeOptions();
